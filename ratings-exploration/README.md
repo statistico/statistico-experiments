@@ -73,5 +73,3 @@ This will return you to your system's default Python environment.
 
 - Make sure to activate your virtual environment (`source env_name/bin/activate`) every time you start working on your project.
 - Install additional libraries as needed using `pip install`.
-
-```
