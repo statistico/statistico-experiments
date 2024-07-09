@@ -12,7 +12,7 @@ It's a good practice to work within a virtual environment to avoid conflicts bet
    
    ```bash
    git clone git@github.com:statistico/statistico-experiments.git
-   cd my_project && cd ratings-exploration
+   cd statistico-experiments && cd ratings-exploration
    ```
 
 2. Create a virtual environment (replace `env_name` with your preferred name for the environment):
@@ -40,12 +40,13 @@ It's a good practice to work within a virtual environment to avoid conflicts bet
 Inside your activated virtual environment, install the necessary libraries using pip:
 
 ```bash
-pip install pandas tabulate matplotlib
+pip install pandas tabulate matplotlib jupyter
 ```
 
 - `pandas`: A powerful data analysis and manipulation library.
 - `tabulate`: Helps in formatting tabular data.
 - `matplotlib`: A plotting library for creating visualizations in Python.
+- `jupyter`: Interactive documents that allow users to write and execute code
 
 These libraries are now installed and ready to be used within your Jupyter Notebook environment.
 
